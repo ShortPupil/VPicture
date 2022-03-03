@@ -1,1 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T10:19:44.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" version="16.6.5" etag="9rDyAMI-KB3TXyxvgWji" type="github"><diagram id="NBFd25sqAlWQv5Wf5p3m">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-03T10:25:54.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" etag="WNABLED4uDQgT5CZVWVO" version="16.6.5" type="github">
+  <diagram id="NBFd25sqAlWQv5Wf5p3m" name="Page-1">
+    <mxGraphModel dx="782" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ecDiVoV_0usV161Hp7b3-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="180" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-3" value="线程1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-4" value="当前线帧&lt;br&gt;Current Stack Frame" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-5" value="局部变量表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-6" value="操作数栈" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-7" value="动态连接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-8" value="完成出口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-9" value="栈帧n&lt;br&gt;Stack Frame n" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="110" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-10" value="线帧0&lt;br&gt;Stack Frame 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="110" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-11" value="程序计数器&lt;br&gt;Program counter register" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="180" width="186" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ecDiVoV_0usV161Hp7b3-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-13" value="基本数据类型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="387" y="200" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ecDiVoV_0usV161Hp7b3-14" target="ecDiVoV_0usV161Hp7b3-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-14" value="对象引用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="387" y="240" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ecDiVoV_0usV161Hp7b3-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-15" value="returnAddress" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="387" y="280" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-17" value="primitive types:int short double float ..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="342" y="130" width="213" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-20" value="指向字节码的指针" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="400" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-21" value="堆&amp;nbsp;&lt;br&gt;Heap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="195" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ecDiVoV_0usV161Hp7b3-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.016;entryY=0.378;entryDx=0;entryDy=0;endArrow=classic;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="ecDiVoV_0usV161Hp7b3-5" target="ecDiVoV_0usV161Hp7b3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
