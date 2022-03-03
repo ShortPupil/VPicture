@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T01:18:23.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" version="16.6.5" etag="ehsj64g0IN4zNGw6exXO" type="github"><diagram id="lujnZKcrpvy65mEZBs7J">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-03T01:21:31.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" etag="bP9O0W8_idvXHQJ_8TXL" version="16.6.5" type="github">
+  <diagram id="lujnZKcrpvy65mEZBs7J" name="Page-1">
+    <mxGraphModel dx="782" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="STG2KhySnp84_Q3XvxFP-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="560" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="STG2KhySnp84_Q3XvxFP-2" value="本地方法栈&lt;br&gt;Naive Method Stacks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STG2KhySnp84_Q3XvxFP-3" value="JAVA 虚拟机栈&lt;br&gt;Java Virtual Machine Stacks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STG2KhySnp84_Q3XvxFP-4" value="程序计数器&lt;br&gt;Program counter register" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STG2KhySnp84_Q3XvxFP-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="STG2KhySnp84_Q3XvxFP-6" value="元空间 Metaspace&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="STG2KhySnp84_Q3XvxFP-7" value="方法区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="STG2KhySnp84_Q3XvxFP-8" value="直接内存&lt;br&gt;Direct memory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STG2KhySnp84_Q3XvxFP-9" value="堆&lt;br&gt;Heap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="70" width="120" height="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
