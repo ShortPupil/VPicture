@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T08:25:03.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39" etag="4_P4kmxCWgRlEv2JgBgj" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T08:27:34.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39" etag="m6XnY8wRuGgPSXCEPt0-" version="17.1.1" type="github">
   <diagram id="OdimADcS7VeNyrV7x7Kn" name="Page-1">
     <mxGraphModel dx="782" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,10 +15,13 @@
         <mxCell id="LDjSrmN3v6cIMVcZkSbh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LDjSrmN3v6cIMVcZkSbh-2" target="LDjSrmN3v6cIMVcZkSbh-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="LDjSrmN3v6cIMVcZkSbh-30" target="LDjSrmN3v6cIMVcZkSbh-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LDjSrmN3v6cIMVcZkSbh-2" value="java端业务处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDjSrmN3v6cIMVcZkSbh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDjSrmN3v6cIMVcZkSbh-4" target="LDjSrmN3v6cIMVcZkSbh-6">
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="LDjSrmN3v6cIMVcZkSbh-32" target="LDjSrmN3v6cIMVcZkSbh-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LDjSrmN3v6cIMVcZkSbh-4" value="nginx日志服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -29,24 +32,30 @@
             <mxPoint x="610" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LDjSrmN3v6cIMVcZkSbh-6" value="HDFS&lt;br&gt;&lt;br&gt;ODS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-6" value="HDFS&lt;br&gt;&lt;br&gt;ODS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="550" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LDjSrmN3v6cIMVcZkSbh-7" value="用户情况分析&lt;br&gt;&lt;br&gt;&lt;br&gt;例如一条日志：229字节&lt;br&gt;&lt;br&gt;1000w pageview * 229字节 放在hdfs中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="-40" width="200" height="160" as="geometry" />
         </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDjSrmN3v6cIMVcZkSbh-9" target="LDjSrmN3v6cIMVcZkSbh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LDjSrmN3v6cIMVcZkSbh-9" value="主动：flume" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="200" width="116" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LDjSrmN3v6cIMVcZkSbh-10" value="被动：kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="260" width="116" height="40" as="geometry" />
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-37" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDjSrmN3v6cIMVcZkSbh-10" target="LDjSrmN3v6cIMVcZkSbh-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-10" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="116" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LDjSrmN3v6cIMVcZkSbh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDjSrmN3v6cIMVcZkSbh-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="610" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LDjSrmN3v6cIMVcZkSbh-12" value="HBase-HDFS&lt;br&gt;DW层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-12" value="HBase-HDFS&lt;br&gt;DW层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="550" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LDjSrmN3v6cIMVcZkSbh-13" value="ETL 清洗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -67,7 +76,7 @@
         <mxCell id="LDjSrmN3v6cIMVcZkSbh-16" value="数据聚合计算&lt;br&gt;MapReduce" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LDjSrmN3v6cIMVcZkSbh-17" value="MySQL&lt;br&gt;ADS" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-17" value="MySQL&lt;br&gt;ADS" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="100" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LDjSrmN3v6cIMVcZkSbh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LDjSrmN3v6cIMVcZkSbh-19" target="LDjSrmN3v6cIMVcZkSbh-17">
@@ -81,6 +90,42 @@
         </mxCell>
         <mxCell id="LDjSrmN3v6cIMVcZkSbh-21" value="Hive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LDjSrmN3v6cIMVcZkSbh-24" target="LDjSrmN3v6cIMVcZkSbh-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-24" value="OLTP数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.183;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LDjSrmN3v6cIMVcZkSbh-27" target="LDjSrmN3v6cIMVcZkSbh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-27" value="DataX" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-30" value="订单数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" source="LDjSrmN3v6cIMVcZkSbh-2" target="LDjSrmN3v6cIMVcZkSbh-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="320" as="sourcePoint" />
+            <mxPoint x="140" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-32" value="拉取数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="LDjSrmN3v6cIMVcZkSbh-4" target="LDjSrmN3v6cIMVcZkSbh-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="550" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-35" value="拉取数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDjSrmN3v6cIMVcZkSbh-36" value="Storm&lt;br&gt;Flink&lt;br&gt;SparkStreaming" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="754" y="110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
